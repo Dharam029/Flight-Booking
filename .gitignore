@@ -1,0 +1,21 @@
+# Environment (never commit secrets)
+.env
+.env.local
+.env.*.local
+**/.env
+
+# Dependencies
+node_modules/
+
+# Database
+*.db
+backend/flight_booking.db
+
+# Build output
+frontend/dist/
+
+# OS / editor
+.DS_Store
+Thumbs.db
+.idea/
+.vscode/
